@@ -4829,6 +4829,7 @@ SMT- SWCH-08247</description>
 <part name="BUTTON" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4860,11 +4861,12 @@ SMT- SWCH-08247</description>
 <instance part="C1" gate="G$1" x="-22.86" y="76.2"/>
 <instance part="C2" gate="G$1" x="0" y="30.48"/>
 <instance part="SUPPLY7" gate="GND" x="0" y="20.32"/>
-<instance part="JP1" gate="G$1" x="25.4" y="-48.26"/>
+<instance part="JP1" gate="G$1" x="114.3" y="-15.24"/>
 <instance part="RESET" gate="S" x="-38.1" y="7.62"/>
 <instance part="BUTTON" gate="S" x="-38.1" y="25.4"/>
 <instance part="SUPPLY4" gate="GND" x="-33.02" y="2.54"/>
 <instance part="SUPPLY5" gate="GND" x="-33.02" y="20.32"/>
+<instance part="SUPPLY6" gate="GND" x="129.54" y="-20.32"/>
 </instances>
 <busses>
 <bus name="PC[0..5],RESET">
@@ -4959,6 +4961,12 @@ SMT- SWCH-08247</description>
 <wire x1="-33.02" y1="22.86" x2="-33.02" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-33.02" y="22.86"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
+<label x="132.08" y="-17.78" size="1.778" layer="95"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -4990,11 +4998,6 @@ SMT- SWCH-08247</description>
 <pinref part="FTDI" gate="G$1" pin="4"/>
 <wire x1="63.5" y1="111.76" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
 <label x="71.12" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="-50.8" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
-<label x="43.18" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -5036,8 +5039,8 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="33.02" y1="-45.72" x2="40.64" y2="-45.72" width="0.1524" layer="91"/>
-<label x="40.64" y="-45.72" size="1.778" layer="95"/>
+<wire x1="121.92" y1="-12.7" x2="129.54" y2="-12.7" width="0.1524" layer="91"/>
+<label x="129.54" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RESET" gate="S" pin="1"/>
@@ -5391,8 +5394,8 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="-48.26" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
-<label x="40.64" y="-48.26" size="1.778" layer="95"/>
+<wire x1="121.92" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
+<label x="129.54" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
