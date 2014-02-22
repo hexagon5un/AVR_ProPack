@@ -329,27 +329,27 @@ UsedLibrary="/home/elliot/hack/eagle/SparkFun-Eagle-Libraries/SparkFun-Sensors.l
 UsedLibrary="/home/elliot/eagle/nrf24_module/nrf24.lbr"
 
 [Win_1]
-Type="CAM Processor"
+Type="Control Panel"
 Loc="2449 341 2643 679"
+State=2
+Number=0
+
+[Win_2]
+Type="CAM Processor"
+Loc="2449 682 2643 1021"
 State=2
 Number=3
 File="serial_one_plug.brd"
 Job="/home/elliot/hack/eagle/myLibs/gerber_and_toner_a4.cam"
-
-[Win_2]
-Type="Control Panel"
-Loc="2449 682 2643 1021"
-State=2
-Number=0
 
 [Win_3]
 Type="Board Editor"
 Loc="2449 0 2643 338"
 State=2
 Number=2
-File="breadboarder.brd"
-View="4.69633 -2.90061 70.4307 37.2229"
-WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
+File="spider_mx8_thin.brd"
+View="-16.256 -14.986 168.656 103.886"
+WireWidths=" 0 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.3048 0.254 0.6096"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -393,8 +393,8 @@ Type="Schematic Editor"
 Loc="1366 0 2446 1021"
 State=2
 Number=1
-File="breadboarder.sch"
-View="-29.304 -0.92625 175.904 135.292"
+File="spider_mx8_thin.sch"
+View="-388.845 -196.308 565.26 417.046"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -433,6 +433,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -388.845 -196.308 565.26 417.046"
 Sheet=1
 
 [Desktop]
