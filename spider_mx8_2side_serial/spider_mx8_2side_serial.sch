@@ -2539,6 +2539,10 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <label x="48.26" y="25.4" size="1.778" layer="95"/>
 <pinref part="SERIAL_POWER" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="9"/>
+<wire x1="83.82" y1="-7.62" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -2568,6 +2572,10 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <label x="30.48" y="35.56" size="1.778" layer="95"/>
 <wire x1="22.86" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="7"/>
+<wire x1="83.82" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">

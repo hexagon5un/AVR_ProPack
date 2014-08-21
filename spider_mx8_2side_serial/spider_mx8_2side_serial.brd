@@ -141,7 +141,7 @@
 <text x="45.72" y="60.325" size="1.27" layer="25" align="center-left">VCC</text>
 <text x="43.18" y="53.975" size="1.27" layer="26" rot="MR270" align="center-left">Mega xx8 Programming Spider
 Version 1.0</text>
-<text x="35.56" y="59.055" size="1.016" layer="25" rot="R90">Serial Power</text>
+<text x="34.925" y="52.705" size="1.016" layer="25" rot="R90">Serial Power</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -603,7 +603,7 @@ design rules under a new name.</description>
 <element name="JP3" library="SparkFun-Connectors" package="1X14" value="M14" x="49.53" y="53.34" smashed="yes" rot="R270"/>
 <element name="JP1" library="SparkFun-Connectors" package="1X14" value="M14" x="36.83" y="20.32" smashed="yes" rot="R90"/>
 <element name="JP2" library="SparkFun-Connectors" package="FTDI_DEVICE_SIDE" value="FTDI_DEVICE" x="43.18" y="69.85" smashed="yes" rot="R180"/>
-<element name="SERIAL_POWER" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="36.83" y="64.77" smashed="yes" rot="R270"/>
+<element name="SERIAL_POWER" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="35.56" y="64.77" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="SCK">
@@ -665,6 +665,7 @@ design rules under a new name.</description>
 <wire x1="42.418" y1="58.42" x2="42.415" y2="58.42" width="0.3048" layer="1"/>
 <wire x1="42.415" y1="58.42" x2="42.291" y2="58.296" width="0.3048" layer="1"/>
 <contactref element="SERIAL_POWER" pad="2"/>
+<contactref element="JP3" pad="9"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="6"/>
@@ -685,6 +686,11 @@ design rules under a new name.</description>
 <wire x1="39.624" y1="58.674" x2="39.624" y2="58.523" width="0.3048" layer="1"/>
 <wire x1="39.878" y1="58.674" x2="39.624" y2="58.523" width="0.3048" layer="1"/>
 <wire x1="39.878" y1="58.674" x2="39.77161875" y2="58.6706" width="0.3048" layer="1"/>
+<contactref element="JP3" pad="7"/>
+<wire x1="49.53" y1="38.1" x2="42.802" y2="38.1" width="0.8128" layer="16"/>
+<wire x1="42.802" y1="38.1" x2="40.132" y2="35.43" width="0.8128" layer="16"/>
+<wire x1="40.132" y1="35.43" x2="36.96" y2="35.43" width="0.8128" layer="16"/>
+<wire x1="36.96" y1="35.43" x2="36.83" y2="35.56" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="R1" pad="2"/>
@@ -718,7 +724,7 @@ design rules under a new name.</description>
 <signal name="VCC_SERIAL">
 <contactref element="JP2" pad="P$4"/>
 <contactref element="SERIAL_POWER" pad="1"/>
-<wire x1="36.83" y1="64.77" x2="41.402" y2="69.342" width="0.3048" layer="1"/>
+<wire x1="35.56" y1="64.77" x2="41.402" y2="69.342" width="0.3048" layer="1"/>
 <wire x1="41.402" y1="69.342" x2="41.91" y2="69.85" width="0.254" layer="1"/>
 </signal>
 </signals>

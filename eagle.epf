@@ -330,19 +330,19 @@ UsedLibrary="/home/elliot/eagle/nrf24_module/nrf24.lbr"
 UsedLibrary="/home/elliot/eagle/myLibs/elliot.lbr"
 
 [Win_1]
-Type="Board Editor"
-Loc="2334 682 2643 1021"
+Type="Library Editor"
+Loc="930 0 1277 381"
 State=2
-Number=1
-File="/home/elliot/eagle/breakouts/tssop/tssop_mega8_smt_isp_ftdi.brd"
-View="21.817 20.0746 78.7657 71.7976"
-WireWidths=" 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.6096 0.4064 0.3048 0 0.254 0.2032"
+Number=4
+File="/home/elliot/eagle/myLibs/elliot.lbr"
+View="-0.508 -0.508 25.908 25.908"
+WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
 HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.4064 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 0.3048 0.8128 0.6096 1.27 1.016"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
@@ -351,14 +351,14 @@ DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
 DimensionExtLengths=" 1.27 2.54 1 2 3 0"
 DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=2
+WireBend=0
 WireBendSet=0
 WireCap=1
 MiterStyle=0
 PadShape=0
-ViaShape=1
+ViaShape=0
 PolygonPour=0
-PolygonRank=1
+PolygonRank=0
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=8
@@ -373,23 +373,15 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=16
 
 [Win_2]
-Type="CAM Processor"
-Loc="2334 341 2643 679"
-State=2
-Number=3
-File="/home/elliot/eagle/breakouts/tssop/tssop_mega8_smt_isp_ftdi.brd"
-Job="/home/elliot/hack/eagle/myLibs/gerber_and_toner_a4.cam"
-
-[Win_3]
 Type="Schematic Editor"
-Loc="2334 0 2643 338"
+Loc="930 384 1277 765"
 State=2
 Number=2
-File="/home/elliot/eagle/breakouts/tssop/tssop_mega8_smt_isp_ftdi.sch"
-View="-94.0071 -96.9554 182.229 84.9014"
+File="/home/elliot/eagle/vusb_tiny_designs/vusbtinyisp_through-hole.sch"
+View="23.0583 16.8656 143.051 148.945"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -428,18 +420,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -94.0071 -96.9554 182.229 84.9014"
+Views=" 1: 23.0583 16.8656 143.051 148.945"
 Sheet=1
 
-[Win_4]
+[Win_3]
 Type="Control Panel"
-Loc="1366 0 2331 1021"
+Loc="0 0 927 765"
 State=2
 Number=0
 
 [Desktop]
-Screen="2646 1024"
+Screen="1366 1536"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
