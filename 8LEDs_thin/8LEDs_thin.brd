@@ -111,22 +111,22 @@
 <wire x1="58.42" y1="62.22" x2="58.42" y2="31.75" width="0" layer="20"/>
 <text x="65.405" y="35.56" size="1.016" layer="25" align="center">GND</text>
 <text x="81.28" y="34.29" size="1.27" layer="25" align="center">GND</text>
-<text x="63.5" y="48.26" size="1.016" layer="25" align="center-left">LED 4</text>
-<text x="63.5" y="50.8" size="1.016" layer="25" align="center-left">LED 3</text>
-<text x="63.5" y="53.34" size="1.016" layer="25" align="center-left">LED 2</text>
-<text x="63.5" y="55.88" size="1.016" layer="25" align="center-left">LED 1</text>
-<text x="63.5" y="58.42" size="1.016" layer="25" align="center-left">LED 0</text>
-<text x="63.5" y="45.72" size="1.016" layer="25" align="center-left">LED 5</text>
-<text x="63.5" y="43.18" size="1.016" layer="25" align="center-left">LED 6</text>
-<text x="63.5" y="40.64" size="1.016" layer="25" align="center-left">LED 7</text>
-<text x="76.2" y="58.42" size="1.778" layer="25" rot="SR270" align="center">0</text>
-<text x="76.2" y="55.88" size="1.778" layer="25" rot="SR270" align="center">1</text>
-<text x="76.2" y="53.34" size="1.778" layer="25" rot="SR270" align="center">2</text>
-<text x="76.2" y="50.8" size="1.778" layer="25" rot="SR270" align="center">3</text>
-<text x="76.2" y="48.26" size="1.778" layer="25" rot="SR270" align="center">4</text>
-<text x="76.2" y="45.72" size="1.778" layer="25" rot="SR270" align="center">5</text>
-<text x="76.2" y="43.18" size="1.778" layer="25" rot="SR270" align="center">6</text>
-<text x="76.2" y="40.64" size="1.778" layer="25" rot="SR270" align="center">7</text>
+<text x="63.5" y="48.26" size="1.016" layer="25" align="center-left">LED 3</text>
+<text x="63.5" y="50.8" size="1.016" layer="25" align="center-left">LED 4</text>
+<text x="63.5" y="53.34" size="1.016" layer="25" align="center-left">LED 5</text>
+<text x="63.5" y="55.88" size="1.016" layer="25" align="center-left">LED 6</text>
+<text x="63.5" y="58.42" size="1.016" layer="25" align="center-left">LED 7</text>
+<text x="63.5" y="45.72" size="1.016" layer="25" align="center-left">LED 2</text>
+<text x="63.5" y="43.18" size="1.016" layer="25" align="center-left">LED 1</text>
+<text x="63.5" y="40.64" size="1.016" layer="25" align="center-left">LED 0</text>
+<text x="76.2" y="58.42" size="1.778" layer="25" rot="SR270" align="center">7</text>
+<text x="76.2" y="55.88" size="1.778" layer="25" rot="SR270" align="center">6</text>
+<text x="76.2" y="53.34" size="1.778" layer="25" rot="SR270" align="center">5</text>
+<text x="76.2" y="50.8" size="1.778" layer="25" rot="SR270" align="center">4</text>
+<text x="76.2" y="48.26" size="1.778" layer="25" rot="SR270" align="center">3</text>
+<text x="76.2" y="45.72" size="1.778" layer="25" rot="SR270" align="center">2</text>
+<text x="76.2" y="43.18" size="1.778" layer="25" rot="SR270" align="center">1</text>
+<text x="76.2" y="40.64" size="1.778" layer="25" rot="SR270" align="center">0</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
