@@ -10,8 +10,19 @@
 *.gpi
 *.pro
 *.gvp
+*.GBO 
+*.GBP
+*.txt
+*.GTP
+*.GML
+*.drl
+*.fab
+*.bor
+*.sco
+*.oln
 
 makeN.py
 dirt_cheap_dirty_boards.v1.cam
 dirt_cheap_dirty_boards.v1.dru
 tempy.*
+*.GBO
