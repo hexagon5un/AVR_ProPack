@@ -1,0 +1,2 @@
+gerbv --antialias $1.TXT $1.GTO $1.GTS $1.GTL $1.GBL $1.GBS $1.GBO $1.GML
+

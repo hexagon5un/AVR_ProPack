@@ -1,0 +1,2 @@
+gerbmerge --ack panel.cfg panel.layout
+./viewGerb panelized_inline
